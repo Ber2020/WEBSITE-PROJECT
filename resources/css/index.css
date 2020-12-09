@@ -29,6 +29,10 @@ img {
     padding:0 10px 0 0;
 }
 
+.text {
+    text-align: center;
+}
+
 a {
     color: white  /* Default text color blue, changed to white  */
 
