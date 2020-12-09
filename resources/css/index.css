@@ -15,18 +15,23 @@
 
 }
 
-.Berrakpicture {
-    height: auto;
-    width: 2500px;
-    display: block;
+.container {
+    margin: 150px auto;
+    width: 50%;
+    padding: 8px;
+}
+
+
+img {
     float: left;
-    margin: 10px 10px 10px 0;
-    max-width: 100%;
-    width: 250px;
+    width: 300px;
+    height: 260px;
+    padding:0 10px 0 0;
 }
 
 a {
-    color: white
+    color: white  /* Default text color blue, changed to white  */
+
 }
 
 body {
@@ -41,12 +46,7 @@ p {
     font-size: 20px;
     font-weight: bold;
 }
-.whole-page { 
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  background-color: rgb(238, 225, 225)
-}
+
 
 .footer {
     background-color: rgb(151, 149, 149); 
