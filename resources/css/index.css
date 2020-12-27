@@ -21,6 +21,11 @@ li a {
     text-decoration: none;
     font-weight: bold;
 }
+
+li a:hover {
+background-color: black;
+}
+    
 .container {
     margin: 150px auto;
     width: 50%;
@@ -40,14 +45,7 @@ img {
     text-align: center;
 }
 
-a {
-    color: white  /* Default text color blue, changed to white  */
 
-}
-
-a {
-    text-decoration: none;
-}
 body {
     font-family: 'Josefin Sans', sans-serif;
 }
