@@ -6,10 +6,13 @@ nav ul {
   overflow: hidden;
   display: table;
   width: 100%;
+  
+  
 }
 nav li {
   display: table-cell;
 }
+
 
 li a {
   display: block;
@@ -57,7 +60,7 @@ h1 {
 
 body {
   font-family: "Josefin Sans", sans-serif;
-  background-color: rgb(250, 227, 207);
+  background-color: rgb(245, 237, 230);
 }
 
 
