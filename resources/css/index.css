@@ -25,35 +25,41 @@ li a:hover {
 }
 
 .container {
-  margin: 150px auto;
-  width: 50%;
+  margin: 10px auto;
+  width: 150%;
   padding: 8px;
   display: flex;
+  margin: auto 0;
+  
+  
 }
 
 .Berrakpic {
   display: block;
-  width: 300px;
+  width: 250px;
   height: auto;
-  float: left;
   max-width: 100%;
-  margin: 20px 20px;
+  margin-left: 10px;
   border: 2px solid rgb(138, 140, 145);
   border-radius: 5px;
-  width: 250px;
-}
-
-.text {
-  text-align: center;
-}
-
-body {
-  font-family: "Josefin Sans", sans-serif;
 }
 
 h1 {
-  font-size: 40px;
+    display: flex;
+    width: 80%;
+    padding: 100px 20px;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    
 }
+
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: rgb(250, 227, 207);
+}
+
 
 p {
   font-size: 20px;
