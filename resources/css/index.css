@@ -1,72 +1,79 @@
-nav ul {
-  background-color: rgb(151, 149, 149);
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  max-width: 100%;
-  
-}
-nav li {
-  display: flex;
-}
-
-
-li a {
-  display: flex;
-  color: white;
-  text-align: center;
-  padding: 30px 30px;
-  text-decoration: none;
-  font-weight: bold;
-
-}
-
-li a:hover {
-  background-color: black;
-}
-
-.container {
-  margin: 10px auto;
-  width: 150%;
-  padding: 8px;
-  display: flex;
-  margin: auto 0;
-
-}
-
-.Berrakpic {
-  display: flex;
-  width: 250px;
-  height: auto;
-  max-width: 100%;
-  margin-left: 10px;
-  border: 2px solid rgb(138, 140, 145);
-  border-radius: 5px;
-}
 
 h1 {
     display: flex;
-    width: 80%;
+    width: 50%;
     padding: 100px 20px;
     font-weight: 900;
     text-align: center;
     font-size: 50px;
     
 }
+/* navigation */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+        margin: 0 1em;
+    }
+
+nav a {
+    color: rgb(97, 92, 92);
+    text-decoration: none;
+    font-weight: 700; 
+    }
+
+nav a:hover,
+nav a:focus {
+    color:blue
+}
+
+
+
+
+img {
+  display: flex;
+  width: 50%;
+  margin-left: 10px;
+  border: 2px solid rgb(138, 140, 145);
+  border-radius: 5px;
+}
+
+/* .container {
+    margin: 10px auto;
+    width: 150%;
+    padding: 8px;
+    display: flex;
+    margin: auto 0;
+  } */
+
+  .container {
+      width: 90%;
+      max-width: 620px;
+      margin: 0 auto;
+      border: 2px solid black;
+  }
+
+
 
 body {
   font-family: "Josefin Sans", sans-serif;
   background-color: rgb(245, 237, 230);
+  font-size: 20px;
+  margin:0;
 }
 
 
-p {
-  font-size: 20px;
+/* p {
+
   font-weight: bold;
+  min-width: 200px;
+  min-height: 100px; */
+  
 }
 
 .links {
@@ -92,4 +99,11 @@ p {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  
 }
+
+/* @media only screen (max-width: 620px) {
+    header, main, footer {
+        width: 100%;
+    }
+} */
