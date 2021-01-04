@@ -30,6 +30,7 @@ h1 {
 /* Layout */
 
 .container {
+    
     width: 100%;
     max-width: 900px;
     border: 1px solid rgb(92, 91, 92);
@@ -77,6 +78,26 @@ img {
   display: flex;
   max-width: 100%; 
   max-height: 100%; 
+  vertical-align: middle;
+}
+
+.carousel-img {
+width: 30vw;
+height: auto;
+position:relative;
+
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.carousel-container {
+    /* justify-content: center; */
 }
 
 .links-header {
