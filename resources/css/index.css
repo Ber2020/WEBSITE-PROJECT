@@ -47,15 +47,24 @@ Layout
     margin: 0 auto;
 }
 
-.container-nav {
+.container-flex {
     display: flex;
     justify-content: space-between;
 }
 header {
     background: rgb(113, 114, 114);
     padding: 1em 0;
-
 }
+
+@media (max-width: 675px) {
+    .container-flex{
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
+}
+
 /* navigation */
 
 nav ul {
@@ -159,8 +168,4 @@ border-radius: 5px;
   display: flex;
 }
 
-/* @media only screen (max-width: 620px) {
-    header, main, footer {
-        width: 100%;
-    }
-} */
+
