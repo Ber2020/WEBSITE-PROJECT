@@ -49,19 +49,22 @@ Layout
 
 .container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
+
 header {
     background: rgb(113, 114, 114);
     padding: 1em 0;
+    text-align: center;
 }
 
-@media (max-width: 675px) {
-    .container-flex{
-        flex-direction: column;
+@media (min-width: 675px) {
+    .container-flex {
+        flex-direction: row;
     }
-    header {
-        text-align: center;
+    main {
+        width: 100%;
     }
 }
 
