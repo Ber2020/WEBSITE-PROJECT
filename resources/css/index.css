@@ -13,9 +13,7 @@ body {
     min-height: 100%; */
     
   }
-/* ===========
-Typography
-============== */
+/* Typography */
 
 h1,
 h2 {
@@ -36,10 +34,7 @@ h1 {
     margin: 0;
 }
 
-
-/* ===========
-Layout
-============== */
+/* Layout */
 
 .container {
     width: 100%;
@@ -124,6 +119,8 @@ nav a:focus {
 
 .content {
     width: 30%;  
+    display: flex;
+    
  }
 }
 
@@ -148,7 +145,22 @@ font-size: 25px;
 display: flex;
 
 }
- 
+
+/* Typewriter */
+.typing {
+    margin-left: 10px;
+    position: relative;
+}
+
+.typing::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 5%;
+    border-right: 50px solid black;
+}
+
+/* Carousel-container */
 .carousel-img {
 width: 30vw;
 height: auto;
@@ -169,7 +181,7 @@ align-items: center;
     display: none;
 }
 
-
+/* logo links */
 .links-header {
     display: flex;
     flex-direction: row;
