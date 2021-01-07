@@ -154,10 +154,11 @@ display: flex;
 
 .typing::after {
     content: "";
-    position: absolute;
+    position: -webkit-absolute;
     width: 1px;
-    height: 5%;
-    border-right: 50px solid black;
+    height: -5%;
+    right: -5px;
+    border-right: 2px solid black;
 }
 
 /* Carousel-container */
