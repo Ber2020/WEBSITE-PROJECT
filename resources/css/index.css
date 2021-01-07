@@ -159,7 +159,7 @@ display: flex;
     height: -5%;
     right: -5px;
     border-right: 2px solid black;
-    animation: blink 0.5s infinite ease;
+    animation: blink 0.7s infinite ease;
 }
 
 @keyframes blink {
