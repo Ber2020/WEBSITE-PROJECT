@@ -38,7 +38,7 @@ h1 {
 
 .container {
     width: auto;
-    border: 1px solid rgb(92, 91, 92);
+    /* border: 1px solid rgb(92, 91, 92); */
     margin: 20px;
 }
 
@@ -117,7 +117,7 @@ nav a:focus {
 }
 
 .content {
-    width: 30%;  
+    width: 100%;  
     display: flex;
     
  }
@@ -135,6 +135,17 @@ nav a:focus {
   border: 2px solid rgb(138, 140, 145);
   border-radius: 5px;
   margin: 0 auto;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.relative1 {
+ display:block;
+ width: 100%;
+ margin-bottom: 50px;
 
 }
 
