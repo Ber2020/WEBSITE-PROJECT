@@ -39,7 +39,7 @@ stopButton.addEventListener("click", stopCarousel);
 
 // Typewriter
   
-const texts = ["welcome, to, my, website"];
+const texts = ["welcome to my website"];
 let count = 0;
 let index = 0;
 let currentText = "";
