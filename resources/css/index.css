@@ -64,7 +64,7 @@ header {
   }
 }
 
-/* navigation */
+/* Navigation */
 
 nav ul {
   list-style: none;
@@ -89,7 +89,7 @@ nav a:focus {
   color: blue;
 }
 
-/* welcome-section */
+/* Welcome-section */
 
 .box {
   display: flex;
